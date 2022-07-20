@@ -60,7 +60,8 @@ class AudioStreamIF
          }
      }
      cout<<streamHeader<<endl;
-      }};int main()
+      }};
+int main()
 {
     char a[5] ;
     string s = " ";
