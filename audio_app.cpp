@@ -7,12 +7,14 @@ using namespace std;
 class AudioStreamIF
 {
  public:
+ 	int i;
     enum  streamfile
     {
         OGG,
         WAV,
         FLAC,
         INVALID
+        
     };
     virtual bool isValidStream( string& streamHeader ) = 0;
 };class WAV : public AudioStreamIF
